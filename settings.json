@@ -1,0 +1,121 @@
+{
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "files.autoSave": "onFocusChange",
+  "debug.terminal.clearBeforeReusing": true,
+  "code-runner.runInTerminal": true,
+  "C_Cpp.clang_format_style": "{BasedOnStyle: Google, BreakBeforeBraces: Attach}",
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
+  "search.showLineNumbers": true,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  // cpp
+  "code-runner.executorMap": {
+    "c": "cls && cd $dir && gcc $fileName -o out && ./out && rm out.exe",
+    "cpp": "cls && cd $dir && g++ $fileName -o l && ./l",
+    // "cpp": "cls && cd $dir && g++ $fileName -o out && ./out && rm out.exe"
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.showRunIconInEditorTitleMenu": false,
+  //
+  "trailing-spaces.trimOnSave": true,
+  "blockman.n01LineHeight": 0,
+  "files.trimTrailingWhitespace": true,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "blockman.n03MaxDepth": 6,
+  "blockman.n04ColorComboPreset": "Lobelia (Gradients)",
+  "blockman.n04Sub03ColorComboPresetForHighContrastTheme": "Classic Dark 1 (Solid colors)",
+  "editor.tabCompletion": "on",
+  "editor.wordBasedSuggestionsMode": "allDocuments",
+  "workbench.colorTheme": "monokai-charcoal (orange)",
+  "code-runner.temporaryFileName": "test",
+  "security.workspace.trust.untrustedFiles": "open",
+  // "files.defaultLanguage": "cpp", // new file is cpp bydefault
+  "C_Cpp.debugShortcut": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.activityBar.visible": false,
+  "platformio-ide.buildTask": "",
+  "browser-preview.startUrl": "file:///C:/Users/Subbrat/Documents/GitHub/bh/bh.html",
+  "textmarker.autoSelectDistinctiveTextColor": true,
+  "highlight.regexes": {
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#ffcc00",
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc0000",
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#00ccff",
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc00cc",
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f"
+        }
+      ]
+    }
+  },
+  "window.zoomLevel": -1,
+  // "workbench.editor.untitled.hint": "hidden", // the intro
+  // html
+  // "browser-preview.startUrl": "file:///C:/Users/Subbrat/Documents/GitHub/",
+  // "editor.defaultFormatter": "HookyQR.beautify",
+  // "html.suggest.html5": true,
+  // "html.validate.scripts": true,
+  // "html.validate.styles": true,
+  // "[html]": {
+  //   "editor.foldingStrategy": "indentation"
+  // },
+  //deleting duplicate value : replace {expression method} "^(.*)(\n\1)+$" by "$1"
+}
